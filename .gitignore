@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+
+# Dataset files
+data/*
+!data/.gitkeep
+
+# Model files
+*.pt
+*.pth
+*.pkl
+
+# IDE
+.vscode/
